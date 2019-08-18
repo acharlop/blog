@@ -11,9 +11,7 @@ image:
 
 The MIT License (MIT)
 
-Copyright (c) {{ site.time | date: '%Y' }} Hossain Mohd Faysal <[hmfaysal@alum.mit.edu](mailto:hmfaysal@alum.mit.edu)>
-
-[http://alum.mit.edu/www/hmfaysal](http://alum.mit.edu/www/hmfaysal)
+Copyright (c) {{ site.time | date: '%Y' }} {{ site.author.name }} <a href="mailto:{{ site.author.email | encode_email }}" title="Contact me">Contact me</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
