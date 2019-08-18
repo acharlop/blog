@@ -53,8 +53,8 @@
     <header
       id="masthead"
       class="blog-background overlay align-center align-middle animated from-bottom animation-on"
-      style="background-image: url({{ site.url }}/images/{% if page.imagefeature %}{{ page.imagefeature }}{% else %}
-      {{ page.default_bg }}{% endif %})"
+      style="background-image: url({{ site.url }}/images/
+      {% if page.imagefeature %}{{ page.imagefeature }}{% else %}{{ site.default_bg }}{% endif %})"
       itemscope
       itemtype="http://schema.org/Organization"
     >
