@@ -50,13 +50,11 @@
       </nav>
     </aside>
 
-    {% assign header_image = page.imagefeature %}
-    {% unless header_image %}{% header_image = site.default_bg %}{% endunless %}
     <header
       id="masthead"
       class="blog-background overlay align-center align-middle animated from-bottom animation-on"
       style="background-image: url({{ site.url }}/images/
-      {{ header_image }})"
+      {{ page.imagefeature | default: page.default_bg }})"
       itemscope
       itemtype="http://schema.org/Organization"
     >
