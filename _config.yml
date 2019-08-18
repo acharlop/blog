@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-target-blank
 
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
@@ -73,7 +74,7 @@ links:
   - title: About Me
     url: /about
   - title: Resume
-    url: http://cv.aviously.me
+    url: https://cv.aviously.me
     external: true
 
 # Sitemap configuration
