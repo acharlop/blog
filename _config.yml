@@ -14,7 +14,7 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              https://aviously.me/
+url:              https://aviously.me
 # baseurl:           
 
 # Gems used
@@ -44,7 +44,7 @@ jekyll-archives:
 author:
   name:           Avi Charlop
   picture:        avatar.jpg
-  email:          your@email.com
+  email:          acharlop@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Some Details about yourself
   # Social networking links used in footer. Update and remove as you like.
@@ -54,8 +54,6 @@ author:
   linkedin:
   instagram:
   tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -74,6 +72,9 @@ links:
     url: /tags
   - title: About Me
     url: /about
+  - title: Resume
+    url: http://cv.aviously.me
+    external: true
 
 # Sitemap configuration
 # https://github.com/kinnetica/jekyll-plugins
