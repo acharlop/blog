@@ -124,7 +124,12 @@
           </li>
           {% endfor %}
           <li>
-            <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"
+            <a
+              href="{{ site.url }}/feed.xml"
+              title="Atom/RSS feed"
+              rel="alternate"
+              type="application/atom+xml"
+              target="_blank"
               ><i class="fa fa-rss"></i> Feed</a
             >
           </li>
