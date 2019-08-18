@@ -3,15 +3,15 @@ layout: post
 type: quote
 title: "Sample Quotation Post"
 description: See the rest of the post about Albert Einstein
-headline: 
+headline:
 category: Sample-Posts
 tags: [sample post, quotation]
 imagefeature: albert-einstein-2068-hd-wallpapers.jpg
 comments: true
-mathjax: 
+mathjax:
 ---
->&quot;Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction.&quot;
-><small><cite title="Albert Einstein">Albert Einstein</cite></small>
+
+> &quot;Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction.&quot; ><small><cite title="Albert Einstein">Albert Einstein</cite></small>
 
 HMFAYSAL OMEGA theme now supports Quotation posting, made famous by some premium WordPress themes. To make a quotation post, specify the post type as quote in the Front Matter YAML. So the Front Matter YAML should look like something like the following:
 
@@ -19,14 +19,14 @@ HMFAYSAL OMEGA theme now supports Quotation posting, made famous by some premium
     layout: post
     type: quote
     title: "Sample Quotation Post"
-    description: 
-    headline: 
+    description:
+    headline:
     modified: YYYY-MM-DD
     category: quote
-    image: 
-      feature: 
+    image:
+      feature:
     comments: true
-    mathjax: 
+    mathjax:
     ---
 
 Or you can simply run the rake task command `rake newquote["Some Quotation Title"]` to generate a skeleton quotation post. Include the intended quotation in Markdown format in your post. A sample quotation in markdown looks like the following:
@@ -36,13 +36,11 @@ Or you can simply run the rake task command `rake newquote["Some Quotation Title
 
 You can add additional details about the quotation in the post. Just make sure the posted quotation goes first in the post, meaning it is the first paragraph of the post. Additional paragraphs can only be seen in the post page. You can also assign a featured image for the post page in the post's Front Matter YAML.
 
-
-----------
-
+---
 
 Albert Einstein was born at Ulm, in Württemberg, Germany, on March 14, 1879. Six weeks later the family moved to Munich, where he later on began his schooling at the Luitpold Gymnasium. Later, they moved to Italy and Albert continued his education at Aarau, Switzerland and in 1896 he entered the Swiss Federal Polytechnic School in Zurich to be trained as a teacher in physics and mathematics. In 1901, the year he gained his diploma, he acquired Swiss citizenship and, as he was unable to find a teaching post, he accepted a position as technical assistant in the Swiss Patent Office. In 1905 he obtained his doctor's degree.
 
-During his stay at the Patent Office, and in his spare time, he produced much of his remarkable work and in 1908 he was appointed Privatdozent in Berne. In 1909 he became Professor Extraordinary at Zurich, in 1911 Professor of Theoretical Physics at Prague, returning to Zurich in the following year to fill a similar post. In 1914 he was appointed Director of the Kaiser Wilhelm Physical Institute and Professor in the University of Berlin. He became a German citizen in 1914 and remained in Berlin until 1933 when he renounced his citizenship for political reasons and emigrated to America to take the position of Professor of Theoretical Physics at Princeton*. He became a United States citizen in 1940 and retired from his post in 1945.
+During his stay at the Patent Office, and in his spare time, he produced much of his remarkable work and in 1908 he was appointed Privatdozent in Berne. In 1909 he became Professor Extraordinary at Zurich, in 1911 Professor of Theoretical Physics at Prague, returning to Zurich in the following year to fill a similar post. In 1914 he was appointed Director of the Kaiser Wilhelm Physical Institute and Professor in the University of Berlin. He became a German citizen in 1914 and remained in Berlin until 1933 when he renounced his citizenship for political reasons and emigrated to America to take the position of Professor of Theoretical Physics at Princeton\*. He became a United States citizen in 1940 and retired from his post in 1945.
 
 After World War II, Einstein was a leading figure in the World Government Movement, he was offered the Presidency of the State of Israel, which he declined, and he collaborated with Dr. Chaim Weizmann in establishing the Hebrew University of Jerusalem.
 

@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<head>
+  <head>
     {% include head.html %}
-</head>
+  </head>
 
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-{% if site.search %}
-<div class="search-wrapper">
-    <div class="search-form">
-        <input type="text" id="search-input" class="search-field" placeholder="Search...">
+  <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+    <!-- search wrapper -->
+    {% if site.search %}
+    <div class="search-wrapper">
+      <div class="search-form">
+        <input
+          type="text"
+          id="search-input"
+          class="search-field"
+          placeholder="Search..."
+        />
         <i id="search-close" class="fa fa-times-circle"></i>
         <h4>Search results</h4>
-        <ul id="results-container" class="search-results post-list">
-        </ul>
+        <ul id="results-container" class="search-results post-list"></ul>
         <!-- /.search-results -->
+      </div>
+      <!-- /.search-form -->
     </div>
-    <!-- /.search-form -->
-</div>
-<!-- ./search-wrapper -->
-{% endif %}
+    <!-- ./search-wrapper -->
+    {% endif %}
+    
+    
     <div id="fade"></div>
     <a id="slide" class="animated fade"></a>
     <aside id="sidebar">
         <nav id="navigation">
             <h2>MENU</h2> <hr>
             <ul>
-{% for link in site.links %}
+  {% for link in site.links %}
                 <li>
                 {% if link.external %}
                     <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
@@ -34,25 +40,25 @@
                     <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %}
                 </li>
-{% endfor %}            
+  {% endfor %}            
                 <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
             </ul>
         </nav>
     </aside>
 
-{% if page.imagefeature %}
+  {% if page.imagefeature %}
     <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom animation-on"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
-{% else %}
+  {% else %}
     <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom animation-on"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
-{% endif %}
+  {% endif %}
 
-{% if site.search %}
+  {% if site.search %}
         <button class="menu-button animated fade dosearch">
             <i class="fa fa-search"></i>
         </button>
-{% endif %}
+  {% endif %}
 
-{% if site.description %}
+  {% if site.description %}
         <div class="inner">
             <div class="container">
                 <a class="brand light" href="{{ site.url }}" itemprop="url">
@@ -66,7 +72,7 @@
                 </h2>
             </div>
         </div>
-{% else %}
+  {% else %}
         <div class="inner">
             <div class="container">
                 <a class="brand" href="{{ site.url }}" itemprop="url">
@@ -77,9 +83,9 @@
                 </a>
             </div>
         </div>
-{% endif %}
+  {% endif %}
 
-{% if site.animated_fins and site.triangleheader %}
+  {% if site.animated_fins and site.triangleheader %}
         <div class="decor-wrapper">
             <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba({{ site.fin_color }}, .1)"></path>
@@ -92,7 +98,7 @@
                 <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
             </svg>
         </div>
-{% else %}
+  {% else %}
     {% if site.triangleheader %}
         <div class="decor-wrapper">
             <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -101,7 +107,7 @@
             </svg>
         </div>
     {% endif %}
-{% endif %}
+  {% endif %}
     </header>
 
     <div id="main" class="content" role="main" itemprop="mainContentOfPage">
@@ -114,8 +120,6 @@
         </div>
     </div>
 
-    {% include footer.html %}
-
-    {% include scripts.html %}  
-</body>
+    {% include footer.html %} {% include scripts.html %}
+  </body>
 </html>

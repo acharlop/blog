@@ -6,7 +6,7 @@ description: "License for Jekyll theme HMFAYSAL OMEGA."
 headline: "The MIT License"
 tags: [Jekyll, theme, license]
 image:
-  feature: 
+  feature:
 ---
 
 The MIT License (MIT)
