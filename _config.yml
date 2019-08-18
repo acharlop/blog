@@ -1,21 +1,21 @@
-title:            Site Title
-description:      Site description for the metas.
-logo:             logo.svg
+title: Site Title
+description: Site description for the metas.
+logo: logo.svg
 disqus_shortname: shortname
 # Assign a default image for your site's header and footer
-default_bg:       default_bg.jpg
-search:           true
-share:            true
+default_bg: default_bg.jpg
+search: true
+share: true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
-readtime:         true
+readtime: true
 # Turn on or off the fin animations in the header and footer
-triangleheader:	  true
-animated_fins:    true
+triangleheader: true
+animated_fins: true
 # Specify the fin color in RGB value
-fin_color:        "255,255,255"
+fin_color: "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              https://aviously.me
-# baseurl:           
+url: https://aviously.me
+# baseurl:
 
 # Gems used
 plugins:
@@ -34,21 +34,21 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archive'
+  layout: "archive"
   permalinks:
     # year: '/:year/'
     # month: '/:year/:month/'
     # day: '/:year/:month/:day/'
-    tag: '/archive/tag/:name/'
-    category: '/archive/category/:name/'
+    tag: "/archive/tag/:name/"
+    category: "/archive/category/:name/"
 
 # Owner/author information
 author:
-  name:           Avi Charlop
-  picture:        avatar.jpg
-  email:          acharlop@gmail.com
+  name: Avi Charlop
+  picture: avatar.jpg
+  email: acharlop@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description: Some Details about yourself
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
@@ -81,20 +81,20 @@ links:
 # Sitemap configuration
 # https://github.com/kinnetica/jekyll-plugins
 sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/index.html"
+  file: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+  include_posts:
+    - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-markdown:    kramdown
+timezone: America/New_York
+future: true
+markdown: kramdown
 highlighter: rouge
-paginate:    6
+paginate: 6
 paginate_path: "/blog/:num/"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
