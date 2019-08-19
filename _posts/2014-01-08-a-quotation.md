@@ -5,7 +5,7 @@ title: "Sample Quotation Post"
 description: See the rest of the post about Albert Einstein
 headline:
 category: Sample-Posts
-tags: [sample post, quotation]
+tags: [sample-post, quotation]
 imagefeature: albert-einstein-2068-hd-wallpapers.jpg
 comments: true
 mathjax:

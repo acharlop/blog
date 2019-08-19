@@ -4,7 +4,7 @@ title: "Fancy Some Columns?"
 description: "Test of Twitter Bootstrap's 12 column setup"
 headline:
 category: Sample-Posts
-tags: [sample post, columns]
+tags: [sample-post, columns]
 imagefeature: picture-30.jpg
 comments: true
 mathjax:
