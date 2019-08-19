@@ -25,7 +25,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-target-blank
   - jekyll-email-protect
 
 # Archives configuration
