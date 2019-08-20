@@ -26,6 +26,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-email-protect
+  - jekyll-target-blank
 
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md

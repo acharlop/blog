@@ -2,16 +2,14 @@
 layout: page
 permalink: /license/
 title: LICENSE
-description: "License for Jekyll theme HMFAYSAL OMEGA."
+description: "License for Aviously.me."
 headline: "The MIT License"
 tags: [Jekyll, theme, license]
-image:
-  feature:
 ---
 
 The MIT License (MIT)
 
-Copyright (c) {{ site.time | date: '%Y' }} {{ site.author.name }} <a href="mailto:{{ site.author.email | encode_email }}" title="Contact me">Contact me</a>
+Copyright (c) {{ site.time | date: '%Y' }} {{ site.author.name }} [Contact me]({{ site.url }}/contact/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
