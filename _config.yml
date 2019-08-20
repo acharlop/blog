@@ -1,7 +1,7 @@
 title: Site Title
 description: Site description for the metas.
 logo: logo.svg
-disqus_shortname: shortname
+disqus_shortname: aviously-me
 # Assign a default image for your site's header and footer
 default_bg: default_bg.jpg
 search: true
