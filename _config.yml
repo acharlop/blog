@@ -77,6 +77,10 @@ links:
   - title: CV
     url: https://cv.aviously.me
     external: true
+  - title: Contact
+    url: /contact
+  - title: Comment Policy
+    url: /comment-policy
 
 # Sitemap configuration
 # https://github.com/kinnetica/jekyll-plugins
