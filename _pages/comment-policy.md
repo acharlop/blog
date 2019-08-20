@@ -8,7 +8,7 @@ tags: [comments]
 # Aviously.me Comment Policy
 
 
-We want you to feel at home when you post a comment on Aviously.me. We want _everyone_ to feel at home posting comments on Aviously.me. We don’t know what your home is like, but we know how we expect people to behave when they visit ours. That’s why we reserve the right to delete comments and ban users as needed to keep the comment threads here civil and substantive.
+We want you to feel at home when you post a comment on Aviously.me. We want *everyone* to feel at home posting comments on Aviously.me. We don’t know what your home is like, but we know how we expect people to behave when they visit ours. That’s why we reserve the right to delete comments and ban users as needed to keep the comment threads here civil and substantive.
 
 Our No. 1 house rule is simple: Don’t be a jerk.
 
@@ -26,7 +26,7 @@ Although we can’t be everywhere at once, here are some of the kinds of comment
 - Comments that make it clear you didn’t read the article. Enraged that we didn’t mention X in a story about Y? Slow down, Speedy McFingerson. If you’d made it past paragraph two, you’d see a very well thought-out discussion of that X you hold so dear. 
 - Comments that are completely out of left field. Sometimes discussions veer off a bit, but are still related to the original subject. That is fine. Hijacking the conversation to promote off-topic commentary is not. 
 - Threats — no matter how vague — against the author or other commenters. Things can get heated. Before you casually mention your foe’s home address, think of your Mother Earth. (Bonus points if you never use the phrase “Mother Earth.”) 
-- Racism, sexism, homophobia, you get the drift. Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. **And by tased, we mean banned or deleted. Grist.org has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it. 
+- Racism, sexism, homophobia, you get the drift. Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. *And by tased, we mean banned or deleted. Grist.org has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it.*
 - Trolling. If you’re a climate denier just out for a good trolling and are not contributing meaningfully to the conversation, we’ll be pushing you back under the bridge.
 
-Policy based off of [Grist](https://grist.org/grist-comment-policy/)
+Policy based off of <a href="https://grist.org/grist-comment-policy/" target="_blank">Grist Comment Policy</a>
